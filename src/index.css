@@ -11,7 +11,7 @@
 }
 
 h1 {
-  @apply font-parisienne text-[200px];
+  @apply font-parisienne text-[160px];
 }
 
 h2 {
@@ -28,4 +28,8 @@ h3 {
 
 #weddingDetails {
     background-color: #fff896;
+}
+
+#fillerF {
+  background-color: #fffdf7;
 }
