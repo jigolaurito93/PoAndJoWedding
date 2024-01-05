@@ -17,24 +17,29 @@
   font-stretch: normal;
 }
 
+h1,
+h2,
+h3 {
+  @apply font-parisienne;
+}
+
 h1 {
-  @apply font-parisienne
 }
 
 h2 {
-  @apply font-parisienne
+  @apply font-parisienne;
 }
 
 h3 {
-  @apply font-parisienne text-[70px];
+  @apply font-parisienne;
 }
 
 li a {
-  @apply font-quicksand text-xl
+  @apply font-quicksand text-xl;
 }
 
 li {
-  @apply duration-500 hover:scale-110
+  @apply duration-500 hover:scale-110;
 }
 
 #heroContainer {
@@ -56,5 +61,3 @@ li {
 #navbar {
   background-color: #ffe0e3;
 }
-
-
