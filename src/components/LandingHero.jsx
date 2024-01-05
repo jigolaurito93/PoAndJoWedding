@@ -3,7 +3,7 @@ import flowers from '../assets/flowers.png'
 
 function LandingHero() {
   return (
-    <div className="w-full h-[100%]" id="heroContainer">
+    <div className="w-full pt-20 h-[100%]" id="heroContainer">
       <div className="flex flex-col justify-center items-center mt-20">
         <h1>Polo and Joie</h1>
         <h2 className="-mt-16">together forever</h2>
