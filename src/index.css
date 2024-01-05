@@ -18,6 +18,14 @@ h2 {
   @apply font-parisienne text-[100px];
 }
 
+h3 {
+    @apply font-parisienne text-[70px];
+}
+
 #heroContainer {
   background-color: #fffdf7 ;
+}
+
+#weddingDetails {
+    background-color: #fff896;
 }
