@@ -19,7 +19,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h5 {
   @apply font-parisienne;
 }
 
@@ -60,4 +61,8 @@ li {
 
 #navbar {
   background-color: #ffe0e3;
+}
+
+#rsvp {
+  background-color: #fffdf7;
 }
