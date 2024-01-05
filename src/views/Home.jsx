@@ -8,9 +8,9 @@ import Rsvp from "../components/Rsvp";
 
 function Home() {
   return (
-    <div className="">
-      <Navbar />
+    <div>
       <LandingHero />
+      <Navbar />
       <DateAndVenue />
       <FillerFlowers />
       <Program />
