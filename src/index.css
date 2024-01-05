@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Parisienne";
+  src: url("/fonts/Parisienne/Parisienne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+h1 {
+  @apply font-parisienne text-[200px];
+}
+
+h2 {
+  @apply font-parisienne text-[100px];
+}
+
+#heroContainer {
+  background-color: #fffdf7 ;
+}
