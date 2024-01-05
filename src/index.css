@@ -43,7 +43,11 @@ li {
   @apply duration-500 hover:scale-110;
 }
 
-#heroContainer {
+#heroContainer,
+#fillerF,
+#navbar,
+#rsvp,
+#bellPoster {
   background-color: #fffdf7;
 }
 
@@ -51,18 +55,6 @@ li {
   background-color: #fff896;
 }
 
-#fillerF {
-  background-color: #fffdf7;
-}
-
 #program {
   background-color: #ffe0e3;
-}
-
-#navbar {
-  background-color: #fffdf7 ;
-}
-
-#rsvp {
-  background-color: #fffdf7;
 }

@@ -5,6 +5,7 @@ import FillerFlowers from "../components/FillerFlowers";
 import Program from "../components/Program";
 import Navbar from "../components/Navbar";
 import Rsvp from "../components/Rsvp";
+import BellPoster from "../components/BellPoster";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <DateAndVenue />
       <FillerFlowers />
       <Program />
+      <BellPoster />
       <Rsvp />
     </div>
   );
