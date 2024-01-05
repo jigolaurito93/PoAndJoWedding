@@ -58,3 +58,30 @@ li {
 #program {
   background-color: #ffe0e3;
 }
+
+#attirePage {
+  background-color: #cdddb3;
+}
+
+#colorPal1 {
+  background-color: #ed15cf;
+}
+#colorPal2 {
+  background-color: #eb7434;
+}
+#colorPal3 {
+  background-color: #f8dadd;
+}
+#colorPal4 {
+  background-color: #cddfec;
+}
+#colorPal5 {
+  background-color: #dec25a;
+}
+#colorPal6 {
+  background-color: #4f9592;
+}
+
+#colorPal1, #colorPal2, #colorPal3, #colorPal4, #colorPal5, #colorPal6 {
+  @apply duration-300 hover:scale-110 cursor-pointer
+}
