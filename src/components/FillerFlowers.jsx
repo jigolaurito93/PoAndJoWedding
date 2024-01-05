@@ -3,8 +3,8 @@ import fillerFlowers from "../assets/fillerflowers.png";
 
 export default function FillerFlowers() {
   return (
-    <div id="fillerF" className="flex justify-center w-full border-3 border-black">
-      <img className="h-fit my-48" src={fillerFlowers} alt="" />
+    <div id="fillerF" className="flex justify-center  border-3 border-black">
+      <img className="w-48 my-32" src={fillerFlowers} alt="" />
     </div>
   );
 }
