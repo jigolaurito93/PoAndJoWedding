@@ -5,14 +5,9 @@ export default function Navbar() {
   return (
     <div
       id="navbar"
-      className="w-full fixed top-0 h-16 items-center border-2 lg:flex hidden"
+      className="w-full sticky top-0 h-16 justify-center items-center lg:flex hidden"
     >
-      <div className="w-1/4 pl-5">
-        <a href="#heroContainer">
-          <img src={logo} alt="" className="w-12 rounded-full" />
-        </a>
-      </div>
-      <ul className="flex gap-24 w-3/4 justify-center">
+      <ul className="flex gap-56 justify-center">
         <li className="">
           <a href="#heroContainer">Home</a>
         </li>

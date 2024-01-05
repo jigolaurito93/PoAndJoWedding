@@ -5,7 +5,7 @@ function DateAndVenue() {
   return (
     <div
       id="weddingDetails"
-      className="flex flex-col gap-9 lg:gap-16 lg:flex-row lg:py-28 xl:gap-28 justify-center items-center py-20"
+      className="flex flex-col h-screen gap-9 lg:gap-16 lg:flex-row lg:py-28 xl:gap-28 justify-center items-center py-20"
     >
       <div>
         <img src={weddingRing} alt="" className="w-52 xl:w-72" />
