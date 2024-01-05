@@ -47,7 +47,8 @@ li {
 #fillerF,
 #navbar,
 #rsvp,
-#bellPoster {
+#bellPoster,
+#cocktailLogo {
   background-color: #fffdf7;
 }
 
@@ -82,6 +83,11 @@ li {
   background-color: #4f9592;
 }
 
-#colorPal1, #colorPal2, #colorPal3, #colorPal4, #colorPal5, #colorPal6 {
-  @apply duration-300 hover:scale-110 cursor-pointer
+#colorPal1,
+#colorPal2,
+#colorPal3,
+#colorPal4,
+#colorPal5,
+#colorPal6 {
+  @apply duration-300 hover:scale-110 cursor-pointer;
 }
