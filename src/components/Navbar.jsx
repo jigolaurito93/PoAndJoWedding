@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div
       id="navbar"
-      className="flex w-full fixed top-0 h-16 items-center border-2"
+      className="w-full fixed top-0 h-16 items-center border-2 lg:flex hidden"
     >
       <div className="w-1/4 pl-5">
         <a href="#heroContainer">

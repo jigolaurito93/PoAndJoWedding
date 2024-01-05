@@ -18,11 +18,11 @@
 }
 
 h1 {
-  @apply font-parisienne text-[160px];
+  @apply font-parisienne
 }
 
 h2 {
-  @apply font-parisienne text-[100px];
+  @apply font-parisienne
 }
 
 h3 {
