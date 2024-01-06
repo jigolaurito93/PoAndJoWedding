@@ -5,9 +5,9 @@ export default function Navbar() {
   return (
     <div
       id="navbar"
-      className="w-full sticky top-0 h-16 justify-center items-center lg:flex collapse"
+      className="w-full sticky top-0 h-16 justify-center items-center lg:flex"
     >
-      <ul className="flex gap-56 justify-center">
+      <ul className="flex lg:gap-56 justify-center">
         <li className="">
           <a href="#heroContainer">Home</a>
         </li>

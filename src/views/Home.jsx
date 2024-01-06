@@ -15,7 +15,9 @@ function Home() {
   return (
     <div>
       <LandingHero />
-      <Navbar />
+      <div className="hidden">
+        <Navbar />
+      </div>
       <DateAndVenue />
       <FillerFlowers />
       <Program />
