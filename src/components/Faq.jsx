@@ -35,14 +35,18 @@ export default function Faq() {
   ];
   return (
     <div id="faq" className="py-16 px-10">
-      <div className="flex flex-col gap-6 md:gap-12">
-        <h1 className="text-4xl text-center md:text-6xl">Frequently Asked Questions</h1>
-        <div className="flex flex-col gap-14">
+      <div className="flex flex-col gap-9 md:gap-16 lg:gap-20">
+        <h1 className="text-5xl text-center md:text-6xl">
+          Frequently Asked Questions
+        </h1>
+        <div className="grid gap-9 md:grid-row-3 md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 xl:px-28">
           {faqs.map((faq, i) => {
             return (
-              <div key={i} className="flex flex-col gap-4">
-                <h2 className="text-4xl md:text-5xl">{faq.title}</h2>
-                <p className="font-quicksand">{faq.content}</p>
+              <div key={i} className="flex flex-col gap-2">
+                <h2 className="text-4xl lg:text-4xl xl:text-5xl">
+                  {faq.title}
+                </h2>
+                <p className="font-quicksand pr-20 lg:pr-0 xl:max-w-96">{faq.content}</p>
               </div>
             );
           })}
