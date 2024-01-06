@@ -46,7 +46,9 @@ export default function Faq() {
                 <h2 className="text-4xl lg:text-4xl xl:text-5xl">
                   {faq.title}
                 </h2>
-                <p className="font-quicksand pr-20 lg:pr-0 xl:max-w-96">{faq.content}</p>
+                <p className="font-quicksand max-w-xl md:pr-20 lg:pr-0 xl:max-w-96">
+                  {faq.content}
+                </p>
               </div>
             );
           })}
