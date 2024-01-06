@@ -8,6 +8,7 @@ import Rsvp from "../components/Rsvp";
 import BellPoster from "../components/BellPoster";
 import Attire from "../components/Attire";
 import CocktailLogo from "../components/CocktailLogo";
+import Faq from "../components/Faq";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <BellPoster />
       <Attire />
       <CocktailLogo />
+      <Faq />
       <Rsvp />
     </div>
   );
