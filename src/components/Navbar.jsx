@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div
       id="navbar"
-      className="w-full sticky top-0 h-16 justify-center items-center lg:flex hidden"
+      className="w-full sticky top-0 h-16 justify-center items-center lg:flex collapse"
     >
       <ul className="flex gap-56 justify-center">
         <li className="">
