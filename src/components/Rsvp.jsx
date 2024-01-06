@@ -4,9 +4,12 @@ import arrow from "../assets/arrow.png";
 
 export default function Rsvp() {
   return (
-    <div className="px-14 py-16 flex justify-center w-full" id="rsvp">
+    <div
+      className="px-14 pt-24 pb-44 md:pt-32 flex justify-center w-full"
+      id="rsvp"
+    >
       <div className="flex flex-col gap-24 justify-center items-center relative">
-        <h3 className="text-5xl">
+        <h3 className="text-5xl md:px-8 md:leading-tight lg:text-center xl:px-48 xl:w-[80rem]">
           it would be an honor to celebrate our special day with you! please let
           us know if you can come
         </h3>
@@ -18,6 +21,7 @@ export default function Rsvp() {
           <a
             href="https://withjoy.com/poloandjoie/rsvp"
             className="hover:shadow-2xl shadow-purple-800 w-3/4"
+            target="_blank"
           >
             <img
               src={envelope}
