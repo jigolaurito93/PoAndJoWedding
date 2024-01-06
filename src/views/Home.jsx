@@ -15,7 +15,7 @@ function Home() {
   return (
     <div>
       <LandingHero />
-      <div className="hidden">
+      <div className="hidden lg:flex lg:sticky lg:top-0">
         <Navbar />
       </div>
       <DateAndVenue />

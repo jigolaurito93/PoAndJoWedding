@@ -5,10 +5,10 @@ export default function Navbar() {
   return (
     <div
       id="navbar"
-      className="w-full sticky top-0 h-16 justify-center items-center lg:flex"
+      className="w-full h-16 items-center"
     >
-      <ul className="flex lg:gap-56 justify-center">
-        <li className="">
+      <ul className="flex w-full h-full justify-evenly items-center">
+        <li>
           <a href="#heroContainer">Home</a>
         </li>
         <li>
@@ -18,10 +18,10 @@ export default function Navbar() {
           <a href="#program">Program</a>
         </li>
         <li>
-          <a href="">Attire</a>
+          <a href="#attirePage">Attire</a>
         </li>
         <li>
-          <a href="">FAQ</a>
+          <a href="#faq">FAQ</a>
         </li>
       </ul>
     </div>
